@@ -1,0 +1,9 @@
+Console.WriteLine("What kind of thing are we talkling about?");
+string a = Console.ReadLine(); //Gives the noun
+Console.WriteLine("How would you describe it? Big? Azure? Tattered?");
+string b = Console.ReadLine(); //Gives an adjective
+string c = "of Doom"; //Native descriptor
+string d = "3000"; //Native desciptor
+Console.WriteLine("The " + b + " " + a + c + " " + d + "!");
+
+/* consider putting values from c and d into writeline on line 7 if they will not be used elsewhere */
