@@ -1,0 +1,8 @@
+Console.WriteLine("Input the base and height of your triangle, it will then be divided by two to find its area.");
+Console.WriteLine("Base: ");
+string baseMeasurement = Console.ReadLine();
+int baseValue = Convert.ToInt32(baseMeasurement);
+Console.WriteLine("Height: ");
+string heightMeasurement = Console.ReadLine();
+int heightValue = Convert.ToInt32(heightMeasurement);
+Console.WriteLine("Area of the triangle = " + (baseValue * heightValue)/2);
