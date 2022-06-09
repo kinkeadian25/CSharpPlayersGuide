@@ -7,4 +7,4 @@ int numberOfEstates = Convert.ToInt32(Console.ReadLine());
 
 int totalScore = (numberOfProvinces * 6) + (numberOfDuchies * 3) + (numberOfEstates);
 
-Console.WriteLine(totalScore);
+Console.WriteLine("Your total score: " + totalScore);
