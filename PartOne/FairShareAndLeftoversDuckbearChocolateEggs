@@ -1,0 +1,5 @@
+string eggValue = Console.ReadLine();
+int eggsCollected = Convert.ToInt32(eggValue);
+int eggsPerSister = eggsCollected / 4;
+int eggsLeftover = eggsCollected % 4;
+Console.WriteLine("The sisters each get {0} eggs, and the duckbear gets {1} leftover eggs", eggsPerSister, eggsLeftover);
